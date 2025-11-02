@@ -1,0 +1,16 @@
+name: Make File
+on: 
+  workflow_dispatch: 
+
+jobs:
+  make-file:
+    runs-on: ubuntu latest
+    steps:
+      - name: Make directory
+        run: mkdir test
+        
+      - name: Make testfile
+        run: echo "hello world" > test/output.txt
+
+      - name: show directory contents
+        run: ls -lah test
