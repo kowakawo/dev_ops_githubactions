@@ -13,4 +13,4 @@ jobs:
         with:
           python-version: '3.13' 
       - name: run the script from the repo
-      - run: python my_script.py
+        run: python my_script.py
