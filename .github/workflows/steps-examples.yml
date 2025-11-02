@@ -17,6 +17,3 @@ jobs:
 
             - name:  check contents output.txt
               run: cat testmachine/output.txt
-        
-		
-    
